@@ -71,9 +71,49 @@
     height: 200px;
 }
 
+/* mid section */
+.container-title {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;    
+    align-content: flex-start;         
+}
+
+.container-title h4 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px 0;
+}
+
+.container-display {
+    display: flex;
+    width: auto;
+    height: 358px;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 15px;
+}
+
+.container-display img {
+    width: 150px;
+    height: 150px;
+}
+
+.container-display p {
+    font-size: 18px;
+    color: grey;
+    width: 150px;
+    text-align: center;
+}
 
 /* hero and footer color */
 .hf-colors {
     background-color: #1F2937;
 }
 
+.m-color {
+    background-color: white;
+}
