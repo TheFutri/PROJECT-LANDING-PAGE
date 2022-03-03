@@ -109,6 +109,76 @@
     text-align: center;
 }
 
+.container-quote {
+    display: flex;
+    width: auto;
+    height: 430px;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+}
+
+.container-quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#author {
+    font-weight: bold;
+    font-style: normal;
+    text-align: end;
+    font-size: 20px;
+}
+
+.container-sign {
+    display: flex;
+    width: 1020px;
+    height: 150px;
+    background-color: #3882F6;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-between;
+    border-radius: 8px;
+    color: white;
+    margin: 100px 200px;
+    padding: 50px 120px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container-sign p {
+    font-size: 18px;
+}
+
+.container-sign button {
+    width: 130px;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    align-self: flex-end;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 35px;
+}
+
+.foot {
+    display: flex;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 /* hero and footer color */
 .hf-colors {
     background-color: #1F2937;
@@ -116,4 +186,8 @@
 
 .m-color {
     background-color: white;
+}
+
+.q-color {
+    background-color: #E5E7EB;
 }
