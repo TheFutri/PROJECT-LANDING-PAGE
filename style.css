@@ -9,14 +9,15 @@
     display: flex;
     width: auto;
     height: 50px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 320px;
     padding-top: 10px;
 }
 
 .container p {
     font-size: 24px;
     color: #F9FAF8;
-    padding-left: 200px;
+
 }
 
 .container a {
@@ -25,22 +26,21 @@
   color: #E5E7EB;
   margin-left: 10px;
 }
-
+/* 
 #last-a {
     padding-right: 200px;
-}
+} */
 
 /* AD section */
 .container-ad {
     display: flex;
     width: auto;
     height: 300px;
-    align-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
+    gap: 0 50px;
+    align-content: center;
+    flex-flow: column wrap;
     justify-content: center;
-    padding: 0 200px;
+    
 }
 
 .container-ad h1 {
@@ -64,6 +64,9 @@
     text-decoration: none;
     width: 80px;
     padding: 5px;
+    margin: 0;
+    border: none;
+    outline: none;
 }
 
 .container-ad img {
